@@ -54,7 +54,6 @@ def update():
     w.after(1000 // FPS, update)
 
 def load_textures():
-    # Используйте абсолютные пути или правильные относительные пути
     base_path = os.path.dirname(os.path.abspath(__file__))
     img_path = os.path.join(base_path, 'img')
 
